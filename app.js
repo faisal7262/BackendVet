@@ -25,7 +25,7 @@ app.use(saleRoutes);
 
 // mongo db configurations......
 async function connectDb(){
-   await mongoose.connect("mongodb+srv://samsung773757:mLACU0nyDet6UowS@veternarydb.c4kru.mongodb.net/",{
+   await mongoose.connect("mongodb+srv://faisal:Faisal%407262@faisal.dpdypeq.mongodb.net/",{
         dbName: "VeternaryDb",
     });
 }
